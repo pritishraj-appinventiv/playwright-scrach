@@ -11,7 +11,7 @@ export default defineConfig({
     retries: 2,
     workers: 1,
     use: {
-        baseURL: process.env.URL,
+        baseURL: process.env.BASE_URL,
         trace: 'on-first-retry',
         screenshot: 'only-on-failure',
     },
